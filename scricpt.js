@@ -8,3 +8,11 @@ menuItems.forEach((item) => {
         item.style.color = '#555';
     });
 });
+// Get references to the relevant HTML elements
+const selectedMenuElement = document.getElementById('selectedMenu');
+const menuSelectElement = document.getElementById('menu');
+
+// Add an event listener to update the selected menu option
+menuSelectElement.addEventListener('change', function () {
+    selectedMenuElement.textContent = menuSelectElement.value;
+});
