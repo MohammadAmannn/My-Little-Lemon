@@ -59,3 +59,89 @@ select {
     max-width: 100%;
     height: auto;
 }
+/* Body and Container Styles */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Additional Styles for Visual Appeal */
+h1, h2 {
+    color: #333;
+}
+
+/* Adjust the above styles to your liking */
+
+/* Add more specific styles as needed */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.confirmation-message {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.confirmation-message ul {
+    list-style: none;
+    padding: 0;
+}
+
+.confirmation-message li {
+    margin-bottom: 10px;
+}
+
+/* Customize these styles to your liking */
