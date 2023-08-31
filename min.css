@@ -69,6 +69,6 @@ p {
 
 /* Apply the animation to the targeted class */
 .animated-text {
-    animation: fade-in 2s ease-in-out; /* Adjust the duration and easing as desired */
+    animation: fade-in 4s ease-in-out; /* Adjust the duration and easing as desired */
 }
 
