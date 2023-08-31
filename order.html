@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Little Lemon - Order</title>
+    <link href="min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <img src="my little lemon.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <h1>Place Your Order</h1>
+                </div>
+            </div>
+        </div>
+        <form action="process_order.php" method="post">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <!-- Customer Details -->
+                    <h2>Customer Details</h2>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Address</label>
+                        <textarea class="form-control" id="address" name="address" rows="4" style="height: 100px;" required></textarea>
+                        <!-- Adjust the height value as needed -->
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <!-- Order Details -->
+                    <h2>Your Order</h2>
+                    <p> Chickpea</p>
+                    <!-- You can populate this section dynamically based on the user's menu selection -->
+                    <p>Menu: <span id="selectedMenu"></span></p>
+                    <!-- Other order details can be added here -->Chickpea,BIRYANI
+
+                    <!-- Payment Options -->
+                    <h2>Payment Options</h2>
+                    <div class="mb-3">
+                        <label for="payment" class="form-label">Select Payment Method</label>
+                        <select class="form-select" id="payment" name="payment" required>
+                            <option value="cash">Cash on Delivery</option>
+                            <option value="online">Pay Online</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary"> <a href="placeorder.html">Place Order</a></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
