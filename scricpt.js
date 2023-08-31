@@ -1,18 +1,10 @@
-// script.js
-
-// Function to show a confirmation message
-function showConfirmation() {
-    if (confirm("Are you sure you want to place an order online?")) {
-        alert("Your order has been placed!");
-    } else {
-        alert("Order canceled.");
-    }
-}
-
-// Add an event listener to the "Order Online" button
-document.addEventListener("DOMContentLoaded", function () {
-    var orderButton = document.querySelector(".btn-primary");
-    if (orderButton) {
-        orderButton.addEventListener("click", showConfirmation);
-    }
+// Add a simple hover effect to the menu items
+const menuItems = document.querySelectorAll('h2');
+menuItems.forEach((item) => {
+    item.addEventListener('mouseover', () => {
+        item.style.color = '#007bff';
+    });
+    item.addEventListener('mouseout', () => {
+        item.style.color = '#555';
+    });
 });
