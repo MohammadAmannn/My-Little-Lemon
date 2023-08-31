@@ -1,74 +1,61 @@
-/* styles.css */
-
+/* Add some background and text styles */
 body {
-    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    margin-top: 20px;
-    background-color: #fff;
-    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-img.img-fluid {
-    max-width: 100%;
-    height: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     color: #333;
 }
 
-.alert.alert-info {
-    background-color: #d9edf7;
-    border-color: #bce8f1;
-    color: #31708f;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
 h2 {
-    color: #333;
+    color: #555;
 }
 
 p {
-    color: #666;
+    color: #777;
 }
 
-.badge.bg-secondary {
-    background-color:yellow
-}
-
-.btn.btn-primary {
+/* Style the button */
+.btn {
     background-color: #007bff;
     color: #fff;
+    padding: 10px 20px;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.btn.btn-primary:hover {
+.btn:hover {
     background-color: #0056b3;
 }
-/* styles.css */
 
-/* Define the animation */
-@keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+/* Style the select box */
+select {
+    padding: 10px;
+    font-size: 16px;
 }
 
-/* Apply the animation to the targeted class */
-.animated-text {
-    animation: fade-in 4s ease-in-out; /* Adjust the duration and easing as desired */
+/* Style the alert box */
+.alert {
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
 
+/* Style the image */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
